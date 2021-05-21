@@ -13,6 +13,7 @@ namespace main_savitch_11
     {
       fix_excess();
     }
+    return true;
   }
   template<class Item>
   bool set<Item>::loose_insert(const Item& entry)
@@ -248,6 +249,36 @@ namespace main_savitch_11
     {
       subset[child_count - 1] -> remove_biggest(removed);
     }
+  }
+  template<class Item>
+  void set<Item>::comination(size_t i)
+  {
+    set<Item>* temp;
+    temp = new set<Item>;
+    for(int j = 0; j < i; j++)
+    {
+      temp -> data[j] = subset[i] -> data[j];
+    }
+    temp -> data[i] = data[i];
+    for(int j = i + 1; j < subset[i] -> data_count + 1; j++)
+    {
+      temp -> data[j - (i + 1)] = subset[i] -> data[j];
+    }
+    for(int j = 0; j < subset[i + 1] -> data_count; j++)
+    {
+      temp -> data[j + (subset[i] -> data_count + 1)] = subset[i + 1] -> data[j];
+    }
+    for(int j = 0; j < subset[i + 1] -> child_count; j++)
+    {
+      temp -> data[j + (subset[i] -> child_count + 1)] = subset[i + 1] -> subset[j];
+    }
+    temp -> data_count = subset[i] -> data_count + subset[i + 1] -> data_count + 1;
+    temp -> child_count = subset[i] -> child_count + subset[i + 1] -> child_count;
+    child_count--;
+    movedown(i,'d');
+    data_count--;
+    subset[i + 1] = nullptr;
+    subset[i] = new set<Item>(temp);
   }
   template<class Item>
   void set<Item>::print(int indent) const

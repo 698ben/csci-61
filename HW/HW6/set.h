@@ -160,6 +160,25 @@ namespace main_savitch_11
             subset[i] = temp[i];
           }
         }
+        void movedown(size_t index, char d)
+        {
+          int temp[data_count];
+          for(int i = 0; i < data_count; i++)
+          {
+            temp[i] = data[i];
+          }
+          for(int i = 0; i < data_count; i++)
+          { 
+            if(index < i)
+            {
+              temp[i - 1] = data[i];
+            }
+          }
+          for(int i = 0; i < data_count; i++)
+          {
+            data[i] = temp[i];
+          }
+        }
         void movedown(size_t index)
         {
           set<Item>* temp[child_count];
@@ -167,7 +186,7 @@ namespace main_savitch_11
           {
             temp[i] = subset[i];
           }
-          for(int i = 0; i < data_count; i++)
+          for(int i = 0; i < child_count; i++)
           { 
             if(index < i)
             {
@@ -179,6 +198,8 @@ namespace main_savitch_11
             subset[i] = temp[i];
           }
         }
+        void comination(size_t i);
+        void trasfer(size_t i);
         // NOTE: The implementor may want to have additional helper functions
       };
 }
