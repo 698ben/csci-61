@@ -1,0 +1,26 @@
+dot prodduct
+recursion
+vectors
+vectors
+series
+race
+recursion
+b-trees
+heaps
+heaps
+hash tables
+stacks
+derivative
+maps
+queues
+race
+happiness hypothosis
+race
+maps
+integral
+sorting
+race
+heaps
+series
+carl 24
+

@@ -1,0 +1,30 @@
+series
+gender
+gender
+heaps
+gender
+stacks
+dot prodduct
+derivative
+gender
+taylor polynomians
+dot prodduct
+b-trees
+b-trees
+taylor polynomians
+hash tables
+integral
+hash tables
+gender
+hash tables
+stacks
+stacks
+stacks
+searching
+queues
+dot prodduct
+derivative
+gender
+trees
+kate 28
+

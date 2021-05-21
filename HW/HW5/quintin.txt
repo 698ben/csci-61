@@ -1,0 +1,22 @@
+trees
+dot prodduct
+gender
+vectors
+hash tables
+searching
+searching
+taylor polynomians
+vectors
+heaps
+vectors
+sorting
+sorting
+trees
+b-trees
+taylor polynomians
+series
+sorting
+taylor polynomians
+queues
+quintin 20
+

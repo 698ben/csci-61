@@ -1,0 +1,33 @@
+series
+vectors
+recursion
+heaps
+vectors
+derivative
+queues
+vectors
+dot prodduct
+queues
+stacks
+taylor polynomians
+taylor polynomians
+maps
+queues
+cross prodduct
+maps
+taylor polynomians
+series
+vectors
+trees
+stacks
+queues
+maps
+series
+maps
+trees
+integral
+gender
+taylor polynomians
+dot prodduct
+alex 31
+

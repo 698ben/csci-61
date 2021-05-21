@@ -1,0 +1,23 @@
+happiness hypothosis
+b-trees
+heaps
+race
+series
+integral
+taylor polynomians
+b-trees
+happiness hypothosis
+race
+derivative
+hash tables
+sorting
+recursion
+stacks
+gender
+heaps
+gender
+stacks
+recursion
+maps
+brian 21
+

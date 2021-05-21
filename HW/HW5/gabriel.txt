@@ -1,0 +1,36 @@
+maps
+series
+heaps
+sorting
+series
+maps
+taylor polynomians
+queues
+sorting
+integral
+hash tables
+hash tables
+integral
+taylor polynomians
+derivative
+cross prodduct
+sorting
+happiness hypothosis
+maps
+recursion
+dot prodduct
+dot prodduct
+b-trees
+b-trees
+race
+series
+heaps
+taylor polynomians
+cross prodduct
+dot prodduct
+heaps
+queues
+happiness hypothosis
+trees
+gabriel 34
+

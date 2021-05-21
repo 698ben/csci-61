@@ -1,0 +1,33 @@
+b-trees
+searching
+searching
+heaps
+integral
+taylor polynomians
+race
+b-trees
+maps
+searching
+race
+gender
+heaps
+vectors
+series
+heaps
+happiness hypothosis
+dot prodduct
+taylor polynomians
+stacks
+gender
+heaps
+dot prodduct
+gender
+maps
+dot prodduct
+vectors
+b-trees
+stacks
+dot prodduct
+recursion
+billy 31
+

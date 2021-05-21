@@ -1,0 +1,17 @@
+input:
+   a number between 0 and 100 for the first prompt
+  two numbers sperated by a space where the second one is larger than the first for the second prompt
+Ex input and output: 
+  input: 
+    25
+    1 10
+  output:
+    average time a student spends in line is: 13.4706
+    average time a student spends with the professor is: 5.23529
+    avergave time a professor spends after intended time is: 35
+issues:
+  1. finding the next avalible spot in a heap
+
+compilation:
+  g++ HW4.cpp
+  

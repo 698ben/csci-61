@@ -1,0 +1,26 @@
+heaps
+maps
+happiness hypothosis
+integral
+recursion
+maps
+taylor polynomians
+derivative
+taylor polynomians
+series
+happiness hypothosis
+cross prodduct
+recursion
+taylor polynomians
+cross prodduct
+stacks
+race
+happiness hypothosis
+happiness hypothosis
+dot prodduct
+hash tables
+b-trees
+sorting
+happiness hypothosis
+larry 24
+

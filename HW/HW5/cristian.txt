@@ -1,0 +1,27 @@
+hash tables
+maps
+series
+heaps
+heaps
+hash tables
+vectors
+trees
+race
+searching
+derivative
+b-trees
+integral
+maps
+queues
+trees
+derivative
+queues
+sorting
+happiness hypothosis
+happiness hypothosis
+recursion
+cross prodduct
+maps
+gender
+cristian 25
+

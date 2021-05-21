@@ -1,0 +1,27 @@
+derivative
+hash tables
+happiness hypothosis
+dot prodduct
+recursion
+derivative
+heaps
+maps
+series
+vectors
+cross prodduct
+dot prodduct
+sorting
+vectors
+race
+stacks
+b-trees
+hash tables
+recursion
+happiness hypothosis
+cross prodduct
+queues
+recursion
+series
+gender
+jim 25
+

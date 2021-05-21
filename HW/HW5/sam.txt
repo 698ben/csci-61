@@ -1,0 +1,26 @@
+vectors
+queues
+happiness hypothosis
+b-trees
+recursion
+sorting
+derivative
+taylor polynomians
+happiness hypothosis
+searching
+dot prodduct
+stacks
+vectors
+gender
+stacks
+sorting
+series
+stacks
+dot prodduct
+trees
+queues
+race
+sorting
+series
+sam 24
+

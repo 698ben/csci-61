@@ -1,0 +1,29 @@
+vectors
+queues
+maps
+stacks
+maps
+cross prodduct
+hash tables
+race
+derivative
+happiness hypothosis
+stacks
+vectors
+cross prodduct
+searching
+searching
+hash tables
+trees
+dot prodduct
+recursion
+dot prodduct
+integral
+integral
+b-trees
+taylor polynomians
+stacks
+trees
+b-trees
+venesa 27
+

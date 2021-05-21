@@ -1,0 +1,28 @@
+gender
+series
+trees
+maps
+derivative
+stacks
+searching
+series
+integral
+searching
+happiness hypothosis
+maps
+searching
+integral
+derivative
+dot prodduct
+trees
+heaps
+hash tables
+series
+integral
+heaps
+maps
+queues
+recursion
+stacks
+courtney 26
+

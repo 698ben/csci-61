@@ -1,0 +1,27 @@
+integral
+race
+taylor polynomians
+stacks
+maps
+cross prodduct
+race
+b-trees
+dot prodduct
+vectors
+derivative
+derivative
+dot prodduct
+gender
+maps
+maps
+derivative
+heaps
+hash tables
+vectors
+recursion
+recursion
+sorting
+taylor polynomians
+cross prodduct
+queues
+series

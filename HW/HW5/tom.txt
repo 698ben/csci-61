@@ -1,0 +1,63 @@
+cross prodduct
+queues
+queues
+race
+derivative
+maps
+queues
+cross prodduct
+trees
+happiness hypothosis
+trees
+vectors
+heaps
+dot prodduct
+derivative
+heaps
+race
+gender
+b-trees
+maps
+searching
+hash tables
+taylor polynomians
+recursion
+recursion
+integral
+integral
+sorting
+vectors
+series
+sorting
+heaps
+vectors
+trees
+maps
+cross prodduct
+heaps
+sorting
+series
+gender
+stacks
+happiness hypothosis
+series
+stacks
+taylor polynomians
+stacks
+trees
+series
+race
+stacks
+gender
+integral
+dot prodduct
+trees
+stacks
+maps
+vectors
+series
+trees
+race
+dot prodduct
+tom 61
+

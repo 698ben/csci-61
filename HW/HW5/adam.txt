@@ -1,0 +1,27 @@
+race
+maps
+sorting
+b-trees
+heaps
+queues
+recursion
+queues
+cross prodduct
+taylor polynomians
+race
+dot prodduct
+heaps
+maps
+searching
+derivative
+happiness hypothosis
+gender
+b-trees
+derivative
+derivative
+queues
+queues
+derivative
+dot prodduct
+adam 25
+

@@ -1,0 +1,36 @@
+recursion
+stacks
+derivative
+maps
+cross prodduct
+trees
+hash tables
+sorting
+gender
+stacks
+integral
+integral
+sorting
+hash tables
+queues
+series
+taylor polynomians
+race
+trees
+hash tables
+searching
+b-trees
+heaps
+b-trees
+queues
+trees
+taylor polynomians
+heaps
+derivative
+gender
+heaps
+sorting
+heaps
+b-trees
+lexi 34
+

@@ -1,0 +1,37 @@
+vectors
+series
+integral
+recursion
+hash tables
+taylor polynomians
+vectors
+recursion
+b-trees
+taylor polynomians
+trees
+integral
+taylor polynomians
+race
+hash tables
+cross prodduct
+happiness hypothosis
+recursion
+series
+happiness hypothosis
+race
+dot prodduct
+searching
+cross prodduct
+heaps
+stacks
+integral
+b-trees
+cross prodduct
+heaps
+integral
+happiness hypothosis
+recursion
+hash tables
+sorting
+brianna 35
+

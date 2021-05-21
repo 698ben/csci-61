@@ -1,0 +1,31 @@
+dot prodduct
+integral
+integral
+stacks
+hash tables
+dot prodduct
+dot prodduct
+taylor polynomians
+queues
+race
+recursion
+sorting
+searching
+stacks
+heaps
+taylor polynomians
+recursion
+race
+taylor polynomians
+series
+race
+searching
+integral
+heaps
+dot prodduct
+gender
+stacks
+heaps
+cross prodduct
+todd 29
+

@@ -1,0 +1,29 @@
+queues
+stacks
+queues
+taylor polynomians
+stacks
+recursion
+dot prodduct
+dot prodduct
+recursion
+searching
+recursion
+race
+queues
+series
+stacks
+derivative
+gender
+heaps
+stacks
+maps
+hash tables
+maps
+b-trees
+gender
+heaps
+happiness hypothosis
+hash tables
+fred 27
+

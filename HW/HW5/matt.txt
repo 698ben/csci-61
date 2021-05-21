@@ -1,0 +1,24 @@
+recursion
+searching
+recursion
+heaps
+b-trees
+dot prodduct
+recursion
+maps
+queues
+taylor polynomians
+vectors
+stacks
+queues
+cross prodduct
+cross prodduct
+race
+dot prodduct
+searching
+series
+sorting
+cross prodduct
+race
+matt 22
+

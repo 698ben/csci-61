@@ -1,0 +1,37 @@
+sorting
+taylor polynomians
+heaps
+maps
+recursion
+stacks
+integral
+searching
+series
+happiness hypothosis
+trees
+recursion
+trees
+queues
+searching
+queues
+race
+trees
+series
+happiness hypothosis
+stacks
+gender
+searching
+series
+searching
+cross prodduct
+b-trees
+sorting
+trees
+gender
+hash tables
+derivative
+gender
+gender
+stacks
+david 35
+

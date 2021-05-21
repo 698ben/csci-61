@@ -1,0 +1,29 @@
+integral
+heaps
+queues
+integral
+integral
+queues
+race
+searching
+derivative
+derivative
+searching
+series
+stacks
+b-trees
+integral
+race
+cross prodduct
+taylor polynomians
+recursion
+searching
+sorting
+cross prodduct
+recursion
+taylor polynomians
+queues
+taylor polynomians
+series
+jack 27
+

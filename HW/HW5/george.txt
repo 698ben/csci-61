@@ -1,0 +1,25 @@
+maps
+integral
+integral
+stacks
+searching
+queues
+happiness hypothosis
+trees
+maps
+taylor polynomians
+recursion
+gender
+trees
+b-trees
+happiness hypothosis
+stacks
+queues
+recursion
+queues
+series
+trees
+race
+dot prodduct
+george 23
+

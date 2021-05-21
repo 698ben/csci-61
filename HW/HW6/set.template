@@ -1,0 +1,269 @@
+
+
+namespace main_savitch_11
+{
+  template<class Item>
+  bool set<Item>::insert(const Item& entry)
+  {
+    if(!(loose_insert(entry)))
+    {
+      return false;
+    }
+    if(data_count > MAXIMUM)
+    {
+      fix_excess();
+    }
+  }
+  template<class Item>
+  bool set<Item>::loose_insert(const Item& entry)
+  {
+    int num = -1;
+    if(entry == 6)
+    {
+      std::cout << is_leaf() << std::endl;
+    }
+    for(int i = 0; i < data_count; i++)
+    {
+      if(data[i] <= entry)
+      {
+        num = i + 1;
+      }
+    }
+    if(num < 0)
+    {
+      num = data_count;
+    }
+    if(data[num] == entry)
+    {
+      return false;
+    }else if(is_leaf())
+    {
+      moveup(num,entry);
+      data_count++;
+      return true;
+    }else
+    {
+      bool saved = subset[num] -> loose_insert(entry);
+      if(subset[num] -> data_count > MAXIMUM) 
+      {
+        fix_excess(num);
+        child_count++;
+      }
+      return saved;
+    }
+  }
+  template<class Item>
+  void set<Item>::fix_excess(std::size_t i)
+  {
+    set<Item>* temp;
+    set<Item>* split1;
+    set<Item>* split2;
+    temp = new set<Item>;
+    split1 = new set<Item>;
+    split2 = new set<Item>;
+    //-------------------------------------
+    //adding data to temp
+    for(int j = 0; j < i; j++)
+    {
+      temp -> data[j] = data[j];
+    }
+    temp -> data[i] = subset[i] -> data[MINIMUM];
+    for(int j = i; j < data_count + 1; j++)
+    {
+      temp -> data[j + 1] = data[j];
+    }
+    //----------------------------------------
+    //adding data to split1 and 2
+    for(int j = 0; j < MAXIMUM/2; j++)
+    {
+      split1 -> data[j] = subset[i] -> data[j];
+    }
+    for(int j = MAXIMUM/2 + 1; j < MAXIMUM + 1; j++)
+    {
+      split2 -> data[j - (MINIMUM + 1)] = subset[i] -> data[j];
+    } 
+    split1 -> data_count = MINIMUM;
+    split2 -> data_count = MINIMUM;
+    //------------------------------------------------------------
+    //adding children to split1 and 2
+    for(int j = 0; j < subset[i] -> child_count / 2; j++)
+    {
+      split1 -> subset[j] = subset[i] -> subset[j];
+    }
+    for(int j = subset[i] -> child_count / 2 ; j < child_count / 2; j++)
+    {
+      split2 -> subset[j - subset[i] -> child_count] = subset[i] -> subset[j];
+    }
+    split1 -> child_count = child_count/2;
+    split2 -> child_count = child_count - split1 -> child_count;
+    //-----------------------------------------------------------
+    //adding split one and two to the subset of temp
+    for(int j = 0; j < i; j++)
+    {
+      temp -> subset[j] = subset[j];
+    }
+    temp -> subset[i] = new set<Item>(*split1);
+    temp -> subset[i + 1] = new set<Item>(*split2);
+    for(int j = i + 2; j < child_count + 1; j++)
+    {
+      temp -> subset[j - i + 2] = subset[j];
+    }
+    //_-------------------------------------------------
+    //copying temp to data and subset
+    for(int j = 0; j < data_count + 1; j++)
+    {
+      data[j] = temp -> data[j];
+    }
+    for(int j = 0; j < child_count + 1; j++)
+    {
+      subset[j] = temp -> subset[j];
+    }
+    data_count++;
+    delete temp;
+    delete split1;
+    delete split2;
+  }
+  template<class Item>
+  void set<Item>::fix_excess()
+  {
+    set<Item>* temp;
+    set<Item>* child1;
+    set<Item>* child2;
+    temp = new set<Item>;
+    child1 = new set<Item>;
+    child2 = new set<Item>;
+    //---------------------------------
+    //temp data assinment
+    temp -> data[0] = data[MAXIMUM/2];
+    //--------------------------------------
+    //child1 data assinment
+    for(int i = 0; i < MAXIMUM/2; i++)
+    {
+      child1 -> data[i] = data[i];
+    }
+    //-------------------------------------
+    //child2 data assinment
+    for(int i = MAXIMUM/2 + 1; i < data_count; i++)
+    {
+      child2 -> data[i - (MAXIMUM/2 + 1)] = data[i];
+    }
+    child1 -> data_count = MINIMUM;
+    child2 -> data_count = MINIMUM;
+    //----------------------------------------------------------
+    //
+    //std::cout << child_count/2 << std::endl;
+    for(int i = 0; i < child_count/2; i++)
+    {
+      child1 -> subset[i] = subset[i];
+    }
+    for(int i = child_count/2; i < child_count; i++)
+    {
+      child2 -> subset[i - child_count/2] = subset[i];
+    }
+    //std::cout << child1 -> data[0] << "  " << child_count - child_count/2 << std::endl;
+    child1 -> child_count = child_count/2;
+    child2 -> child_count = child_count/2;
+    //---------------------------------------
+    //seting temps children
+    temp -> subset[MAXIMUM/2 - 1] = new set<Item>(*child1);
+    temp -> subset[MAXIMUM/2] = new set<Item>(*child2);
+    //----------------------------------------------------------
+    data_count = MAXIMUM/2;
+    child_count =2;
+    for(int i = 0; i < data_count; i++)
+    {
+      data[i] = temp -> data[i];
+    }
+    for(int i = 0; i < child_count; i++)
+    {
+      subset[i] = new set<Item>;
+       subset[i] = temp -> subset[i];
+    }
+    delete temp; 
+    delete child1;
+    delete child2;
+  }
+  template<class Item>
+  std::size_t set<Item>::erase(const Item& target)
+  {
+    if(!loose_erase(target))
+    {
+      return false;
+    }
+    if((data_count == 0) && (child_count == 1))
+    {
+      fix_shortage();
+    }
+    return true;
+  }
+  template<class Item>
+  bool set<Item>::loose_erase(const Item &target)
+  {
+    int i = -1;
+    for(int j = 0;  j < data_count; j++)
+    {
+      if(data[j] >= target)
+      {
+        i = j;
+        break;
+      }
+    }
+    if(i == -1)
+    {
+      i = data_count;
+    }
+    if(child_count == 0 && data[i] != target)
+    {
+      return false;
+    }else if(child_count == 0 && data[i] == target)
+    {
+      movedown(i);
+      if(data_count < MINIMUM )
+      {
+        fix_shortage(i);
+      }
+      return true;
+    }else if(child_count != 0 && data[i] != target)
+    {
+      subset[i] -> loose_erase(target);
+    }else if(child_count != 0 && data[i] == target)
+    {
+      subset[i] -> remove_biggest(data[i]);
+      fix_shortage(i);
+    }
+  }
+  template<class Item>
+  void set<Item>::fix_shortage(std::size_t i)
+  {
+    
+  }
+  template<class Item>
+  void set<Item>::remove_biggest(Item &removed)
+  {
+    if(child_count == 0)
+    {
+      removed = data[data_count - 1];
+      data_count--;
+    }else
+    {
+      subset[child_count - 1] -> remove_biggest(removed);
+    }
+  }
+  template<class Item>
+  void set<Item>::print(int indent) const
+  {
+    for(int i = 0; i < indent; i++)
+    {
+      std::cout <<  " ";
+    }
+    for(int i = child_count - 1; i > 0; i--)
+    {
+      subset[i] -> print(indent + 5);
+    }
+    for(int i = 0; i < data_count - 1; i++)
+    {
+      std::cout << data[i] << ", ";
+    }
+    std::cout << data[data_count - 1] << std::endl;
+  }
+}

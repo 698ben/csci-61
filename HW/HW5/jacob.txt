@@ -1,0 +1,26 @@
+queues
+gender
+integral
+series
+hash tables
+b-trees
+stacks
+gender
+vectors
+series
+race
+recursion
+race
+cross prodduct
+hash tables
+vectors
+sorting
+cross prodduct
+recursion
+gender
+dot prodduct
+happiness hypothosis
+queues
+queues
+jacob 24
+

@@ -1,0 +1,20 @@
+stacks
+queues
+trees
+heaps
+b-trees
+maps
+searching
+sorting
+hash tables
+gender
+happiness hypothosis
+vectors
+series
+taylor polynomians
+cross prodduct
+dot prodduct
+integral
+derivative
+race
+recursion

@@ -1,0 +1,31 @@
+gender
+queues
+integral
+race
+taylor polynomians
+vectors
+gender
+hash tables
+searching
+trees
+stacks
+taylor polynomians
+b-trees
+taylor polynomians
+queues
+b-trees
+searching
+recursion
+hash tables
+gender
+series
+integral
+gender
+queues
+hash tables
+happiness hypothosis
+series
+series
+recursion
+arabraham 29
+

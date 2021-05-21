@@ -1,0 +1,34 @@
+series
+queues
+sorting
+recursion
+series
+hash tables
+race
+integral
+maps
+recursion
+b-trees
+sorting
+dot prodduct
+recursion
+dot prodduct
+trees
+integral
+taylor polynomians
+cross prodduct
+heaps
+dot prodduct
+searching
+series
+stacks
+series
+b-trees
+recursion
+searching
+vectors
+hash tables
+cross prodduct
+dot prodduct
+nick 32
+

@@ -1,0 +1,31 @@
+sorting
+series
+series
+series
+vectors
+dot prodduct
+taylor polynomians
+cross prodduct
+queues
+derivative
+hash tables
+maps
+integral
+heaps
+race
+race
+taylor polynomians
+stacks
+dot prodduct
+vectors
+b-trees
+happiness hypothosis
+race
+stacks
+taylor polynomians
+b-trees
+series
+heaps
+race
+victoria 29
+
