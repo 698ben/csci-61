@@ -280,6 +280,13 @@ namespace main_savitch_11
     subset[i + 1] = nullptr;
     subset[i] = new set<Item>(temp);
   }
+   template<class Item>
+   void set<Item>::trasfer(size_t i)
+   {
+     subset[i] -> moveup(0,data[i - 1]);
+     data -> moveup(data_count - 1, subset[i - 1] -> data[data_count - 1]);
+     subset[i] -> moveup(0,subset[i - 1] -> subset[child_count - 1]);
+   }
   template<class Item>
   void set<Item>::print(int indent) const
   {
