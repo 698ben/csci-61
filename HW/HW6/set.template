@@ -19,10 +19,6 @@ namespace main_savitch_11
   bool set<Item>::loose_insert(const Item& entry)
   {
     int num = -1;
-    if(entry == 6)
-    {
-      std::cout << is_leaf() << std::endl;
-    }
     for(int i = 0; i < data_count; i++)
     {
       if(data[i] <= entry)
@@ -95,8 +91,8 @@ namespace main_savitch_11
     {
       split2 -> subset[j - subset[i] -> child_count] = subset[i] -> subset[j];
     }
-    split1 -> child_count = child_count/2;
-    split2 -> child_count = child_count - split1 -> child_count;
+    split1 -> child_count = (subset[i] -> child_count)/2;
+    split2 -> child_count = (subset[i] -> child_count)/2;
     //-----------------------------------------------------------
     //adding split one and two to the subset of temp
     for(int j = 0; j < i; j++)
@@ -161,7 +157,7 @@ namespace main_savitch_11
     {
       child2 -> subset[i - child_count/2] = subset[i];
     }
-    //std::cout << child1 -> data[0] << "  " << child_count - child_count/2 << std::endl;
+    // std::cout <<  "child count:   " << child_count/2 << std::endl;
     child1 -> child_count = child_count/2;
     child2 -> child_count = child_count/2;
     //---------------------------------------
@@ -177,8 +173,8 @@ namespace main_savitch_11
     }
     for(int i = 0; i < child_count; i++)
     {
-      subset[i] = new set<Item>;
-       subset[i] = temp -> subset[i];
+      subset[i] = new set<Item>(*(temp -> subset[i]));
+       //subset[i] = temp -> subset[i];
     }
     delete temp; 
     delete child1;
@@ -236,7 +232,16 @@ namespace main_savitch_11
   template<class Item>
   void set<Item>::fix_shortage(std::size_t i)
   {
-    
+    if(subset[i - 1] -> data_count < MAXIMUM -MINIMUM)
+    {
+      comination(i);
+    }else if(subset[i + 1] -> data_count < MAXIMUM -MINIMUM)
+    {
+      comination(i,char 'l');
+    }else
+    {
+      trasfer(i);
+    }
   }
   template<class Item>
   void set<Item>::remove_biggest(Item &removed)
@@ -280,12 +285,49 @@ namespace main_savitch_11
     subset[i + 1] = nullptr;
     subset[i] = new set<Item>(temp);
   }
+  template<class Item>
+  void set<Item>::comination(size_t i, char a)
+  {
+    set<Item>* temp;
+    temp = new set<Item>;
+    for(int j = 0; j < i; j++)
+    {
+      temp -> data[j] = subset[i] -> data[j];
+    }
+    temp -> data[i] = data[i];
+    for(int j = i + 1; j < subset[i] -> data_count + 1; j++)
+    {
+      temp -> data[j - (i + 1)] = subset[i] -> data[j];
+    }
+    for(int j = 0; j < subset[i - 1] -> data_count; j++)
+    {
+      temp -> data[j + (subset[i] -> data_count + 1)] = subset[i - 1] -> data[j];
+    }
+    for(int j = 0; j < subset[i - 1] -> child_count; j++)
+    {
+      temp -> data[j + (subset[i] -> child_count + 1)] = subset[i - 1] -> subset[j];
+    }
+    temp -> data_count = subset[i] -> data_count + subset[i - 1] -> data_count + 1;
+    temp -> child_count = subset[i] -> child_count + subset[i - 1] -> child_count;
+    child_count--;
+    movedown(i,'d');
+    data_count--;
+    subset[i - 1] = nullptr;
+    subset[i] = new set<Item>(temp);
+  }
    template<class Item>
    void set<Item>::trasfer(size_t i)
    {
      subset[i] -> moveup(0,data[i - 1]);
      data -> moveup(data_count - 1, subset[i - 1] -> data[data_count - 1]);
      subset[i] -> moveup(0,subset[i - 1] -> subset[child_count - 1]);
+   }
+   template<class Item>
+   void set<Item>::trasfer(size_t i,char a)
+   {
+     subset[i] -> moveup(0,data[i - 1]);
+     data -> moveup(data_count - 1, subset[i + 1] -> data[data_count - 1]);
+     subset[i] -> moveup(0,subset[i + 1] -> subset[child_count - 1]);
    }
   template<class Item>
   void set<Item>::print(int indent) const
@@ -294,14 +336,19 @@ namespace main_savitch_11
     {
       std::cout <<  " ";
     }
-    for(int i = child_count - 1; i > 0; i--)
+    std::cout << "test" << std::endl;
+    for(int i = child_count; i >= 0; i--)
     {
       subset[i] -> print(indent + 5);
     }
-    for(int i = 0; i < data_count - 1; i++)
+    for(int i = 0; i < data_count; i++)
     {
       std::cout << data[i] << ", ";
     }
     std::cout << data[data_count - 1] << std::endl;
+    // std::cout << "     " << data[0] << ", " << data[1] << std::endl
+    //           << " " << subset[0] -> data[0] << "     " << subset[1] -> data[0] << "     " << subset[2] -> data[0] << std::endl
+    //           //<< (subset[2] -> subset[0] == nullptr) << std::endl
+    //           << subset[0] -> subset[0] -> data[0] << "  " << subset[0] -> subset[1] -> data[0] << "  " << subset[1] -> subset[0] -> data[0] <<  "  " << subset[1] -> subset[1] -> data[0] << std::endl; //<< "  " << subset[2] -> subset[0] -> data[0]<< "  " << subset[2] -> subset[1] -> data[0] << std::endl;
   }
 }

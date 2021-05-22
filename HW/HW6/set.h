@@ -199,7 +199,9 @@ namespace main_savitch_11
           }
         }
         void comination(size_t i);
+        void comination(size_t i, char a);
         void trasfer(size_t i);
+        void trasfer(size_t i,char a);
         // NOTE: The implementor may want to have additional helper functions
       };
 }
