@@ -106,7 +106,7 @@ void partition(int data[ ], size_t n, size_t& pivot_index)
     int i = 1;
     int j = n - 1;
     pivot_index = 0;
-    while(i < j && i <= n)
+    while(i <= j && i <= n)
     {
         if(data[pivot_index] < data[i])
         {
