@@ -1,0 +1,38 @@
+vertical words
+patener from (46,25)to (52,25)
+supari from (194,25)to (199,25)
+mummia from (199,55)to (205,55)
+herder from (117,78)to (123,78)
+undull from (225,83)to (231,83)
+pluses from (64,112)to (70,112)
+ipomea from (103,113)to (108,113)
+misset from (52,119)to (57,119)
+primas from (165,121)to (171,121)
+bhakti from (85,135)to (90,135)
+digraph from (74,144)to (81,144)
+amelia from (235,160)to (241,160)
+davies from (67,179)to (73,179)
+tricks from (45,202)to (50,202)
+upwarp from (178,229)to (183,229)
+calque from (205,236)to (210,236)
+durrie from (231,241)to (236,241)
+________________________________________
+horizontal words
+stated from (34,59)to (34,64)
+hicaco from (47,206)to (47,211)
+jimjam from (87,136)to (87,141)
+axwise from (98,217)to (98,222)
+carole from (115,162)to (115,167)
+combed from (120,99)to (120,104)
+loment from (158,138)to (158,143)
+aonach from (164,191)to (164,196)
+oozier from (166,225)to (166,230)
+stiles from (194,23)to (194,28)
+autist from (199,153)to (199,158)
+begobs from (199,161)to (199,166)
+lamaic from (211,117)to (211,122)
+coedit from (216,101)to (216,106)
+________________________________________
+left-right diagonal words
+________________________________________
+right-left diagonal words

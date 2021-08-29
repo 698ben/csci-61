@@ -1,0 +1,143 @@
+// FILE: table1.template
+// TEMPLATE CLASS IMPLEMENTED: table (see table1.h for documentation)
+// INVARIANT for the table ADT:
+//   1. The number of records in the table is in the member variable used.
+//   2. The actual records of the table are stored in the array data, with
+//      a maximum of CAPACITY entries. Each used spot in the array has a 
+//      non-negative key. Any unused record in the array has a key field of
+//      NEVER_USED (if it has never been used) or PREVIOUSLY_USED (if it once
+//      was used, but is  now vacant).
+
+#include <cassert>  // Provides assert
+#include <cstdlib>  // Provides size_t
+
+namespace main_savitch_12B
+{
+    template <class RecordType>
+    table<RecordType>::table( )
+    {
+        for(int i = 0; i < TABLE_SIZE; i++)
+        {
+          data[i] = NULL;
+        }
+    }
+    template<class RecordType>
+     table<RecordType>::~table( )
+     {
+       for(int i = 0; i < TABLE_SIZE; i++)
+       {
+         main_savitch_6B::list_clear(data[i]);
+       }
+     }
+    template <class RecordType>
+    void table<RecordType>::insert(const RecordType& entry)
+    // Library facilities used: cassert
+    {
+        std::size_t index;        // data[index] is location for the new entry
+
+        assert(entry >= 0);
+
+        index = hash(entry);
+        if(data[index] != NULL)
+        {
+          main_savitch_6B::list_insert(data[index],entry);
+        }else
+        {
+          main_savitch_6B::list_head_insert(data[index],entry);
+        }
+       
+    }
+
+    template <class RecordType>
+    void table<RecordType>::remove(int key)
+    // Library facilities used: cassert
+    {
+        std::size_t index;   // Spot where data[index].key == key
+
+        assert(key >= 0);
+
+        index = hash(key);
+        main_savitch_6B::node<RecordType>* prev;
+        main_savitch_6B::node<RecordType>* prev_tail;
+        if(data[index] -> data() != key)
+        {
+          for(main_savitch_6B::node<RecordType>* cursor = data[index]; cursor -> link() != NULL; cursor = cursor -> link() )
+          {
+            if((cursor -> link()) -> data() == key)
+            {
+              prev = cursor;
+            }
+          }
+          main_savitch_6B::list_remove(prev);
+        }else
+        {
+          main_savitch_6B::list_head_remove(data[index]);
+        }
+        
+    }
+
+    template <class RecordType>
+    bool table<RecordType>::is_present(int key) const
+    // Library facilities used: assert.h
+    {
+        bool found;
+        std::size_t index;
+        main_savitch_6B::node<RecordType>* temp;
+
+        assert(key >= 0);
+        index = hash(key);
+
+        if(data[index] -> data() != key)
+        {
+            temp = main_savitch_6B::list_search(data[index],key);
+            if(temp != NULL)
+            {
+              found = true;
+            }
+        }else
+        {
+          found = true;
+        }
+        
+        return found;
+    }
+    template <class RecordType>
+    void table<RecordType>::find(int key, bool& found, RecordType& result) const
+    // Library facilities used: cassert.h
+    {
+        std::size_t index;
+        main_savitch_6B::node<RecordType>* temp;
+
+        assert(key >= 0);
+        index = hash(key);
+        if(data[index] -> data() != key)
+        {
+          temp = main_savitch_6B::list_search(data[index],key);
+          if(temp != NULL)
+          {
+            found == true;
+          }
+        }else
+        {
+          found = true;
+        }
+
+
+        if (found)
+        {
+          if(data[index] -> data() == key)
+          {
+            result = data[index] -> data();
+          }else
+          {
+            result = temp -> data();
+          }
+        }
+    }
+
+    template <class RecordType>
+    inline std::size_t table<RecordType>::hash(int key) const
+    {
+        return (key % TABLE_SIZE);
+    }
+}
