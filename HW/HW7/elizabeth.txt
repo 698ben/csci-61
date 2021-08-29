@@ -1,0 +1,29 @@
+series
+vectors
+heaps
+derivative
+series
+derivative
+sorting
+taylor polynomians
+trees
+dot prodduct
+taylor polynomians
+maps
+vectors
+gender
+happiness hypothosis
+b-trees
+b-trees
+gender
+sorting
+gender
+hash tables
+integral
+happiness hypothosis
+derivative
+gender
+stacks
+stacks
+elizabeth 27
+

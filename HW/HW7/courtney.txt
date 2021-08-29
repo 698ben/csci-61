@@ -1,0 +1,34 @@
+vectors
+integral
+series
+maps
+vectors
+b-trees
+maps
+hash tables
+sorting
+trees
+series
+recursion
+race
+stacks
+race
+heaps
+cross prodduct
+maps
+race
+sorting
+heaps
+taylor polynomians
+searching
+derivative
+race
+dot prodduct
+taylor polynomians
+trees
+vectors
+cross prodduct
+race
+integral
+courtney 32
+

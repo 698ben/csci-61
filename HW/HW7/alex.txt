@@ -1,0 +1,36 @@
+heaps
+heaps
+queues
+recursion
+derivative
+b-trees
+trees
+searching
+maps
+dot prodduct
+derivative
+queues
+trees
+trees
+taylor polynomians
+derivative
+series
+series
+integral
+happiness hypothosis
+gender
+searching
+queues
+taylor polynomians
+searching
+maps
+queues
+queues
+heaps
+trees
+derivative
+trees
+vectors
+hash tables
+alex 34
+

@@ -1,0 +1,29 @@
+taylor polynomians
+searching
+recursion
+race
+trees
+taylor polynomians
+heaps
+derivative
+dot prodduct
+queues
+queues
+trees
+b-trees
+gender
+maps
+series
+hash tables
+stacks
+race
+queues
+cross prodduct
+happiness hypothosis
+searching
+maps
+vectors
+gender
+race
+damien 27
+

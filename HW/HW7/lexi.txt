@@ -1,0 +1,26 @@
+race
+gender
+taylor polynomians
+vectors
+queues
+derivative
+derivative
+race
+taylor polynomians
+maps
+vectors
+maps
+dot prodduct
+happiness hypothosis
+searching
+b-trees
+stacks
+recursion
+cross prodduct
+dot prodduct
+vectors
+race
+recursion
+derivative
+lexi 24
+

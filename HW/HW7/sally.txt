@@ -1,0 +1,39 @@
+cross prodduct
+dot prodduct
+trees
+integral
+series
+trees
+queues
+vectors
+integral
+recursion
+maps
+hash tables
+derivative
+sorting
+searching
+stacks
+recursion
+hash tables
+sorting
+integral
+maps
+taylor polynomians
+happiness hypothosis
+taylor polynomians
+hash tables
+sorting
+sorting
+race
+sorting
+recursion
+hash tables
+hash tables
+b-trees
+b-trees
+recursion
+sorting
+cross prodduct
+sally 37
+

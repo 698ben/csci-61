@@ -1,0 +1,30 @@
+gender
+dot prodduct
+series
+searching
+b-trees
+cross prodduct
+hash tables
+derivative
+cross prodduct
+trees
+queues
+queues
+heaps
+maps
+queues
+hash tables
+hash tables
+taylor polynomians
+cross prodduct
+derivative
+sorting
+series
+searching
+derivative
+taylor polynomians
+happiness hypothosis
+integral
+series
+emma 28
+

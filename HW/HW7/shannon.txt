@@ -1,0 +1,39 @@
+recursion
+integral
+hash tables
+maps
+happiness hypothosis
+recursion
+taylor polynomians
+cross prodduct
+integral
+derivative
+integral
+derivative
+taylor polynomians
+series
+gender
+maps
+recursion
+race
+derivative
+queues
+hash tables
+trees
+cross prodduct
+recursion
+cross prodduct
+taylor polynomians
+sorting
+taylor polynomians
+integral
+happiness hypothosis
+derivative
+gender
+trees
+stacks
+hash tables
+maps
+b-trees
+shannon 37
+

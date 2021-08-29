@@ -1,0 +1,62 @@
+vectors
+trees
+gender
+happiness hypothosis
+maps
+heaps
+series
+stacks
+maps
+sorting
+maps
+happiness hypothosis
+recursion
+gender
+recursion
+gender
+queues
+cross prodduct
+gender
+b-trees
+derivative
+dot prodduct
+hash tables
+gender
+recursion
+heaps
+series
+recursion
+hash tables
+vectors
+race
+trees
+gender
+hash tables
+series
+hash tables
+searching
+searching
+heaps
+b-trees
+sorting
+heaps
+stacks
+happiness hypothosis
+taylor polynomians
+integral
+hash tables
+maps
+derivative
+derivative
+series
+searching
+searching
+heaps
+dot prodduct
+stacks
+sorting
+searching
+queues
+heaps
+tom 60
+

@@ -1,0 +1,34 @@
+recursion
+recursion
+heaps
+derivative
+gender
+vectors
+race
+stacks
+stacks
+series
+queues
+happiness hypothosis
+recursion
+recursion
+race
+vectors
+hash tables
+recursion
+queues
+searching
+heaps
+series
+trees
+heaps
+trees
+trees
+hash tables
+b-trees
+sorting
+queues
+searching
+b-trees
+ugene 32
+

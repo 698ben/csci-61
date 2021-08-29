@@ -1,0 +1,31 @@
+b-trees
+happiness hypothosis
+dot prodduct
+hash tables
+recursion
+dot prodduct
+integral
+b-trees
+b-trees
+gender
+dot prodduct
+trees
+vectors
+gender
+vectors
+b-trees
+heaps
+stacks
+hash tables
+taylor polynomians
+stacks
+dot prodduct
+cross prodduct
+integral
+taylor polynomians
+heaps
+series
+integral
+queues
+lauarel 29
+

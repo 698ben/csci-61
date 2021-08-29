@@ -1,0 +1,29 @@
+vectors
+integral
+trees
+taylor polynomians
+trees
+cross prodduct
+dot prodduct
+race
+cross prodduct
+queues
+searching
+sorting
+recursion
+happiness hypothosis
+b-trees
+taylor polynomians
+race
+dot prodduct
+recursion
+dot prodduct
+b-trees
+trees
+recursion
+trees
+gender
+hash tables
+recursion
+venesa 27
+

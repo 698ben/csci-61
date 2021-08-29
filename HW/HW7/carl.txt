@@ -1,0 +1,28 @@
+queues
+recursion
+happiness hypothosis
+stacks
+heaps
+hash tables
+dot prodduct
+b-trees
+sorting
+cross prodduct
+gender
+trees
+trees
+sorting
+derivative
+sorting
+taylor polynomians
+integral
+recursion
+happiness hypothosis
+gender
+hash tables
+b-trees
+race
+derivative
+derivative
+carl 26
+

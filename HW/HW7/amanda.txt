@@ -1,0 +1,28 @@
+stacks
+integral
+trees
+dot prodduct
+race
+heaps
+derivative
+taylor polynomians
+taylor polynomians
+gender
+stacks
+happiness hypothosis
+stacks
+trees
+series
+queues
+searching
+vectors
+hash tables
+heaps
+dot prodduct
+cross prodduct
+heaps
+heaps
+sorting
+derivative
+amanda 26
+

@@ -1,0 +1,29 @@
+sorting
+trees
+vectors
+dot prodduct
+race
+hash tables
+sorting
+series
+vectors
+happiness hypothosis
+race
+integral
+stacks
+maps
+happiness hypothosis
+dot prodduct
+b-trees
+heaps
+gender
+race
+integral
+gender
+stacks
+taylor polynomians
+queues
+maps
+stacks
+violet 27
+

@@ -1,0 +1,35 @@
+maps
+trees
+recursion
+searching
+b-trees
+queues
+derivative
+integral
+b-trees
+queues
+searching
+series
+stacks
+recursion
+series
+b-trees
+hash tables
+cross prodduct
+dot prodduct
+series
+searching
+cross prodduct
+happiness hypothosis
+series
+heaps
+trees
+dot prodduct
+derivative
+taylor polynomians
+race
+derivative
+hash tables
+stacks
+adam 33
+

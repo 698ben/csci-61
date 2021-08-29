@@ -1,0 +1,26 @@
+sorting
+integral
+integral
+derivative
+hash tables
+happiness hypothosis
+queues
+dot prodduct
+heaps
+cross prodduct
+happiness hypothosis
+taylor polynomians
+taylor polynomians
+gender
+series
+integral
+series
+taylor polynomians
+taylor polynomians
+derivative
+derivative
+searching
+recursion
+happiness hypothosis
+victoria 24
+

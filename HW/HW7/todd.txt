@@ -1,0 +1,25 @@
+b-trees
+dot prodduct
+stacks
+integral
+dot prodduct
+stacks
+hash tables
+happiness hypothosis
+taylor polynomians
+stacks
+dot prodduct
+dot prodduct
+cross prodduct
+gender
+sorting
+recursion
+vectors
+recursion
+vectors
+sorting
+vectors
+stacks
+searching
+todd 23
+

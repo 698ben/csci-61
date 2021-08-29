@@ -1,0 +1,27 @@
+dot prodduct
+derivative
+dot prodduct
+taylor polynomians
+b-trees
+vectors
+recursion
+dot prodduct
+vectors
+b-trees
+happiness hypothosis
+searching
+b-trees
+taylor polynomians
+happiness hypothosis
+searching
+queues
+vectors
+b-trees
+taylor polynomians
+searching
+sorting
+taylor polynomians
+happiness hypothosis
+b-trees
+fred 25
+

@@ -1,1478 +1,1564 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+maps
+trees
+recursion
+searching
+b-trees
+queues
+derivative
+integral
+b-trees
+queues
+searching
+series
+stacks
+recursion
+series
+b-trees
+hash tables
+cross prodduct
+dot prodduct
+series
+searching
+cross prodduct
+happiness hypothosis
+series
+heaps
+trees
+dot prodduct
+derivative
+taylor polynomians
+race
+derivative
+hash tables
+stacks
+adam 33
+
+heaps
+heaps
+queues
+recursion
+derivative
+b-trees
+trees
+searching
+maps
+dot prodduct
+derivative
+queues
+trees
+trees
+taylor polynomians
+derivative
+series
+series
+integral
+happiness hypothosis
+gender
+searching
+queues
+taylor polynomians
+searching
+maps
+queues
+queues
+heaps
+trees
+derivative
+trees
+vectors
+hash tables
+alex 34
+
+stacks
+integral
+trees
+dot prodduct
+race
+heaps
+derivative
+taylor polynomians
+taylor polynomians
+gender
+stacks
+happiness hypothosis
+stacks
+trees
+series
+queues
+searching
+vectors
+hash tables
+heaps
+dot prodduct
+cross prodduct
+heaps
+heaps
+sorting
+derivative
+amanda 26
+
+hash tables
+maps
+happiness hypothosis
+queues
+queues
+searching
+heaps
+integral
+trees
+stacks
+queues
+series
+heaps
+derivative
+gender
+race
+trees
+derivative
+searching
+maps
+trees
+trees
+gender
+gender
+b-trees
+arabraham 25
+
+sorting
+hash tables
+stacks
+stacks
+cross prodduct
+maps
+series
+derivative
+trees
+taylor polynomians
+cross prodduct
+cross prodduct
+queues
+integral
+maps
+derivative
+trees
+happiness hypothosis
+queues
+trees
+stacks
+b-trees
+maps
+gender
+derivative
+ben 25
+
+dot prodduct
+dot prodduct
+heaps
+sorting
+b-trees
+taylor polynomians
+cross prodduct
+trees
+searching
+queues
+gender
+integral
+integral
+queues
+sorting
+b-trees
+hash tables
+maps
+cross prodduct
+recursion
+maps
+cross prodduct
+hash tables
+dot prodduct
+series
+queues
+trees
+stacks
+dot prodduct
+vectors
+gender
+series
+billy 32
+
+race
+hash tables
+hash tables
+gender
+derivative
+recursion
+vectors
+stacks
+taylor polynomians
+recursion
+vectors
+dot prodduct
+searching
+hash tables
+integral
+series
+gender
+taylor polynomians
+searching
+sorting
+stacks
+stacks
+dot prodduct
+taylor polynomians
+dot prodduct
+maps
+stacks
+happiness hypothosis
+stacks
+trees
+brandon 30
+
+happiness hypothosis
+race
+searching
+hash tables
+trees
+taylor polynomians
+race
+happiness hypothosis
+vectors
+maps
+b-trees
+cross prodduct
+race
+queues
+gender
+happiness hypothosis
+stacks
+vectors
+searching
+series
+queues
+hash tables
+queues
+taylor polynomians
+hash tables
+stacks
+recursion
+integral
+integral
+searching
+brian 30
+
+searching
+trees
+stacks
+race
+derivative
+sorting
+b-trees
+integral
+trees
+taylor polynomians
+gender
+trees
+sorting
+heaps
+queues
+vectors
+vectors
+race
+cross prodduct
+derivative
+taylor polynomians
+heaps
+maps
+series
+dot prodduct
+vectors
+sorting
+sorting
+happiness hypothosis
+maps
+b-trees
+integral
+cross prodduct
+heaps
+maps
+brianna 35
+
+queues
+recursion
+happiness hypothosis
+stacks
+heaps
+hash tables
+dot prodduct
+b-trees
+sorting
+cross prodduct
+gender
+trees
+trees
+sorting
+derivative
+sorting
+taylor polynomians
+integral
+recursion
+happiness hypothosis
+gender
+hash tables
+b-trees
+race
+derivative
+derivative
+carl 26
+
+race
+dot prodduct
+heaps
+queues
+taylor polynomians
+maps
+dot prodduct
+hash tables
+dot prodduct
+race
+hash tables
+maps
+derivative
+searching
+derivative
+sorting
+sorting
+race
+sorting
+happiness hypothosis
+searching
+vectors
+series
+sorting
+dot prodduct
+maps
+vectors
+chelsy 27
+
+vectors
+integral
+series
+maps
+vectors
+b-trees
+maps
+hash tables
+sorting
+trees
+series
+recursion
+race
+stacks
+race
+heaps
+cross prodduct
+maps
+race
+sorting
+heaps
+taylor polynomians
+searching
+derivative
+race
+dot prodduct
+taylor polynomians
+trees
+vectors
+cross prodduct
+race
+integral
+courtney 32
+
+recursion
+race
+integral
+sorting
+taylor polynomians
+taylor polynomians
+gender
+integral
+race
+queues
+sorting
+sorting
+vectors
+happiness hypothosis
+derivative
+trees
+race
+stacks
+race
+gender
+taylor polynomians
+maps
+stacks
+derivative
+series
+cristian 25
+
+taylor polynomians
+searching
+recursion
+race
+trees
+taylor polynomians
+heaps
+derivative
+dot prodduct
+queues
+queues
+trees
+b-trees
+gender
+maps
+series
+hash tables
+stacks
+race
+queues
+cross prodduct
+happiness hypothosis
+searching
+maps
+vectors
+gender
+race
+damien 27
+
+maps
+dot prodduct
+integral
+stacks
+hash tables
+cross prodduct
+recursion
+heaps
+stacks
+queues
+vectors
+trees
+queues
+queues
+happiness hypothosis
+series
+happiness hypothosis
+series
+vectors
+trees
+taylor polynomians
+race
+series
+queues
+recursion
+sorting
+stacks
+vectors
+integral
+cross prodduct
+david 30
+
+series
+vectors
+heaps
+derivative
+series
+derivative
+sorting
+taylor polynomians
+trees
+dot prodduct
+taylor polynomians
+maps
+vectors
+gender
+happiness hypothosis
+b-trees
+b-trees
+gender
+sorting
+gender
+hash tables
+integral
+happiness hypothosis
+derivative
+gender
+stacks
+stacks
+elizabeth 27
+
+gender
+dot prodduct
+series
+searching
+b-trees
+cross prodduct
+hash tables
+derivative
+cross prodduct
+trees
+queues
+queues
+heaps
+maps
+queues
+hash tables
+hash tables
+taylor polynomians
+cross prodduct
+derivative
+sorting
+series
+searching
+derivative
+taylor polynomians
+happiness hypothosis
+integral
+series
+emma 28
+
+dot prodduct
+derivative
+dot prodduct
+taylor polynomians
+b-trees
+vectors
+recursion
+dot prodduct
+vectors
+b-trees
+happiness hypothosis
+searching
+b-trees
+taylor polynomians
+happiness hypothosis
+searching
+queues
+vectors
+b-trees
+taylor polynomians
+searching
+sorting
+taylor polynomians
+happiness hypothosis
+b-trees
+fred 25
+
+heaps
+sorting
+integral
+derivative
+sorting
+gender
+b-trees
+taylor polynomians
+stacks
+series
+derivative
+sorting
+series
+searching
+happiness hypothosis
+race
+hash tables
+gender
+integral
+b-trees
+taylor polynomians
+race
+queues
+sorting
+taylor polynomians
+taylor polynomians
+gabriel 26
+
+dot prodduct
+queues
+b-trees
+trees
+derivative
+maps
+taylor polynomians
+dot prodduct
+recursion
+b-trees
+taylor polynomians
+sorting
+maps
+happiness hypothosis
+dot prodduct
+vectors
+dot prodduct
+stacks
+dot prodduct
+series
+recursion
+recursion
+searching
+george 23
+
+derivative
+searching
+queues
+derivative
+b-trees
+maps
+searching
+maps
+stacks
+series
+sorting
+sorting
+happiness hypothosis
+recursion
+derivative
+hash tables
+dot prodduct
+integral
+hash tables
+series
+gender
+gender
+taylor polynomians
+recursion
+b-trees
+taylor polynomians
+hanna 26
+
+maps
+sorting
+dot prodduct
+gender
+recursion
+gender
+queues
+race
+trees
+integral
+happiness hypothosis
+dot prodduct
+dot prodduct
+hash tables
+maps
+taylor polynomians
+searching
+race
+sorting
+trees
+race
+cross prodduct
+race
+maps
+cross prodduct
+series
+hash tables
+searching
+trees
+heaps
+searching
+integral
+jack 32
+
+happiness hypothosis
+queues
+stacks
+happiness hypothosis
+sorting
+heaps
+vectors
+vectors
+b-trees
+searching
+dot prodduct
+series
+b-trees
+searching
+dot prodduct
+searching
+queues
+cross prodduct
+derivative
+recursion
+cross prodduct
+series
+derivative
+integral
+integral
+maps
+integral
+cross prodduct
+derivative
+queues
+heaps
+jacob 31
+
+queues
+derivative
+integral
+race
+maps
+trees
+vectors
+searching
+maps
+trees
+dot prodduct
+derivative
+hash tables
+cross prodduct
+stacks
+queues
+derivative
+taylor polynomians
+dot prodduct
+gender
+b-trees
+sorting
+derivative
+heaps
+maps
+hash tables
+maps
+trees
+race
+race
+queues
+vectors
+derivative
+jane 33
+
+taylor polynomians
+recursion
+sorting
+series
+heaps
+integral
+race
+hash tables
+derivative
+sorting
+happiness hypothosis
+happiness hypothosis
+heaps
+sorting
+derivative
+searching
+heaps
+heaps
+integral
+trees
+gender
+maps
+b-trees
+race
+cross prodduct
+searching
+integral
+cross prodduct
+jim 28
+
+b-trees
+dot prodduct
+derivative
+queues
+stacks
+taylor polynomians
+hash tables
+sorting
+cross prodduct
+taylor polynomians
+b-trees
+b-trees
+gender
+race
+recursion
+race
+happiness hypothosis
+b-trees
+taylor polynomians
+hash tables
+trees
+stacks
+derivative
+derivative
+karl 24
+
+series
+heaps
+recursion
+integral
+vectors
+dot prodduct
+taylor polynomians
+heaps
+searching
+derivative
+b-trees
+cross prodduct
+trees
+searching
+race
+b-trees
+vectors
+gender
+queues
+happiness hypothosis
+dot prodduct
+recursion
+dot prodduct
+searching
+vectors
+maps
+dot prodduct
+taylor polynomians
+series
+stacks
+queues
+dot prodduct
+recursion
+maps
+race
+gender
+gender
+happiness hypothosis
+vectors
+kate 39
+
+derivative
+vectors
+searching
+heaps
+maps
+vectors
+cross prodduct
+sorting
+trees
+queues
+hash tables
+series
+b-trees
+heaps
+vectors
+sorting
+dot prodduct
+trees
+hash tables
+searching
+trees
+series
+larry 22
+
+b-trees
+happiness hypothosis
+dot prodduct
+hash tables
+recursion
+dot prodduct
+integral
+b-trees
+b-trees
+gender
+dot prodduct
+trees
+vectors
+gender
+vectors
+b-trees
+heaps
+stacks
+hash tables
+taylor polynomians
+stacks
+dot prodduct
+cross prodduct
+integral
+taylor polynomians
+heaps
+series
+integral
+queues
+lauarel 29
+
+race
+gender
+taylor polynomians
+vectors
+queues
+derivative
+derivative
+race
+taylor polynomians
+maps
+vectors
+maps
+dot prodduct
+happiness hypothosis
+searching
+b-trees
+stacks
+recursion
+cross prodduct
+dot prodduct
+vectors
+race
+recursion
+derivative
+lexi 24
+
+taylor polynomians
+maps
+taylor polynomians
+queues
+stacks
+sorting
+hash tables
+happiness hypothosis
+hash tables
+happiness hypothosis
+b-trees
+gender
+gender
+stacks
+sorting
+dot prodduct
+b-trees
+taylor polynomians
+cross prodduct
+searching
+maps
+dot prodduct
+dot prodduct
+b-trees
+sorting
+searching
+gender
+gender
+mark 28
+
+heaps
+sorting
+happiness hypothosis
+vectors
+searching
+dot prodduct
+derivative
+queues
+gender
+integral
+searching
+derivative
+recursion
+trees
+dot prodduct
+cross prodduct
+series
+sorting
+trees
+derivative
+recursion
+maps
+trees
+sorting
+gender
+heaps
+recursion
+b-trees
+series
+matt 29
+
+taylor polynomians
+b-trees
+searching
+trees
+cross prodduct
+trees
+vectors
+happiness hypothosis
+heaps
+derivative
+gender
+heaps
+recursion
+recursion
+hash tables
+dot prodduct
+taylor polynomians
+derivative
+series
+series
+searching
+trees
+queues
+integral
+dot prodduct
+b-trees
+dot prodduct
+race
+nick 28
+
+sorting
+sorting
+integral
+dot prodduct
+integral
+race
+stacks
+race
+happiness hypothosis
+happiness hypothosis
+recursion
+searching
+searching
+series
+cross prodduct
+dot prodduct
+recursion
+recursion
+taylor polynomians
+stacks
+hash tables
+happiness hypothosis
+stacks
+dot prodduct
+recursion
+series
+quintin 26
+
+integral
+vectors
+sorting
+taylor polynomians
+searching
+vectors
+queues
+b-trees
+b-trees
+gender
+b-trees
+race
+vectors
+happiness hypothosis
+recursion
+queues
+vectors
+integral
+b-trees
+race
+taylor polynomians
+searching
+recursion
+recursion
+resce 24
+
+cross prodduct
+dot prodduct
+trees
+integral
+series
+trees
+queues
+vectors
+integral
+recursion
+maps
+hash tables
+derivative
+sorting
+searching
+stacks
+recursion
+hash tables
+sorting
+integral
+maps
+taylor polynomians
+happiness hypothosis
+taylor polynomians
+hash tables
+sorting
+sorting
+race
+sorting
+recursion
+hash tables
+hash tables
+b-trees
+b-trees
+recursion
+sorting
+cross prodduct
+sally 37
+
+b-trees
+dot prodduct
+recursion
+searching
+queues
+trees
+vectors
+dot prodduct
+heaps
+recursion
+dot prodduct
+hash tables
+series
+race
+queues
+race
+integral
+maps
+b-trees
+sorting
+race
+gender
+maps
+trees
+sorting
+gender
+derivative
+stacks
+trees
+cross prodduct
+heaps
+searching
+vectors
+series
+sam 34
+
+maps
+stacks
+dot prodduct
+derivative
+integral
+dot prodduct
+maps
+stacks
+recursion
+trees
+series
+maps
+integral
+dot prodduct
+integral
+heaps
+dot prodduct
+dot prodduct
+hash tables
+vectors
+dot prodduct
+shane 21
+
+recursion
+integral
+hash tables
+maps
+happiness hypothosis
+recursion
+taylor polynomians
+cross prodduct
+integral
+derivative
+integral
+derivative
+taylor polynomians
+series
+gender
+maps
+recursion
+race
+derivative
+queues
+hash tables
+trees
+cross prodduct
+recursion
+cross prodduct
+taylor polynomians
+sorting
+taylor polynomians
+integral
+happiness hypothosis
+derivative
+gender
+trees
+stacks
+hash tables
+maps
+b-trees
+shannon 37
+
+integral
+searching
+derivative
+series
+vectors
+derivative
+recursion
+gender
+b-trees
+hash tables
+integral
+sorting
+happiness hypothosis
+series
+race
+race
+heaps
+maps
+heaps
+trees
+happiness hypothosis
+queues
+trees
+vectors
+b-trees
+b-trees
+shara 26
+
+sorting
+integral
+b-trees
+integral
+cross prodduct
+vectors
+derivative
+integral
+derivative
+heaps
+hash tables
+race
+taylor polynomians
+dot prodduct
+vectors
+searching
+cross prodduct
+hash tables
+queues
+series
+derivative
+b-trees
+searching
+cross prodduct
+trees
+steve 25
+
+sorting
+maps
+heaps
+maps
+trees
+sorting
+vectors
+cross prodduct
+trees
+gender
+taylor polynomians
+recursion
+gender
+b-trees
+maps
+gender
+taylor polynomians
+maps
+queues
+derivative
+searching
+recursion
+dot prodduct
+trees
+taylor polynomians
+derivative
+sorting
+recursion
+trees
+susan 29
+
+b-trees
+dot prodduct
+stacks
+integral
+dot prodduct
+stacks
+hash tables
+happiness hypothosis
+taylor polynomians
+stacks
+dot prodduct
+dot prodduct
+cross prodduct
+gender
+sorting
+recursion
+vectors
+recursion
+vectors
+sorting
+vectors
+stacks
+searching
+todd 23
+
+vectors
+trees
+gender
+happiness hypothosis
+maps
+heaps
+series
+stacks
+maps
+sorting
+maps
+happiness hypothosis
+recursion
+gender
+recursion
+gender
+queues
+cross prodduct
+gender
+b-trees
+derivative
+dot prodduct
+hash tables
+gender
+recursion
+heaps
+series
+recursion
+hash tables
+vectors
+race
+trees
+gender
+hash tables
+series
+hash tables
+searching
+searching
+heaps
+b-trees
+sorting
+heaps
+stacks
+happiness hypothosis
+taylor polynomians
+integral
+hash tables
+maps
+derivative
+derivative
+series
+searching
+searching
+heaps
+dot prodduct
+stacks
+sorting
+searching
+queues
+heaps
+tom 60
+
+recursion
+heaps
+series
+stacks
+trees
+taylor polynomians
+sorting
+sorting
+heaps
+derivative
+gender
+trees
+taylor polynomians
+gender
+race
+hash tables
+happiness hypothosis
+trees
+vectors
+queues
+cross prodduct
+b-trees
+maps
+queues
+race
+stacks
+happiness hypothosis
+gender
+integral
+cross prodduct
+integral
+happiness hypothosis
+taylor polynomians
+travis 33
+
+recursion
+recursion
+heaps
+derivative
+gender
+vectors
+race
+stacks
+stacks
+series
+queues
+happiness hypothosis
+recursion
+recursion
+race
+vectors
+hash tables
+recursion
+queues
+searching
+heaps
+series
+trees
+heaps
+trees
+trees
+hash tables
+b-trees
+sorting
+queues
+searching
+b-trees
+ugene 32
+
+vectors
+integral
+trees
+taylor polynomians
+trees
+cross prodduct
+dot prodduct
+race
+cross prodduct
+queues
+searching
+sorting
+recursion
+happiness hypothosis
+b-trees
+taylor polynomians
+race
+dot prodduct
+recursion
+dot prodduct
+b-trees
+trees
+recursion
+trees
+gender
+hash tables
+recursion
+venesa 27
+
+sorting
+integral
+integral
+derivative
+hash tables
+happiness hypothosis
+queues
+dot prodduct
+heaps
+cross prodduct
+happiness hypothosis
+taylor polynomians
+taylor polynomians
+gender
+series
+integral
+series
+taylor polynomians
+taylor polynomians
+derivative
+derivative
+searching
+recursion
+happiness hypothosis
+victoria 24
+
+sorting
+trees
+vectors
+dot prodduct
+race
+hash tables
+sorting
+series
+vectors
+happiness hypothosis
+race
+integral
+stacks
+maps
+happiness hypothosis
+dot prodduct
+b-trees
+heaps
+gender
+race
+integral
+gender
+stacks
+taylor polynomians
+queues
+maps
+stacks
+violet 27
+
+integral
+queues
+series
+maps
+derivative
+dot prodduct
+queues
+sorting
+heaps
+recursion
+taylor polynomians
+queues
+integral
+series
+hash tables
+heaps
+heaps
+maps
+vectors
+recursion
+hash tables
+searching
+recursion
+integral
+vectors
+taylor polynomians
+vectors
+stacks
+sorting
+cross prodduct
+integral
+trees
+vectors
+dot prodduct
+trees
+maps
+recursion
+recursion
+gender
+queues
+sorting
+searching

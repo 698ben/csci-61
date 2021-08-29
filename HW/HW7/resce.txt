@@ -1,0 +1,26 @@
+integral
+vectors
+sorting
+taylor polynomians
+searching
+vectors
+queues
+b-trees
+b-trees
+gender
+b-trees
+race
+vectors
+happiness hypothosis
+recursion
+queues
+vectors
+integral
+b-trees
+race
+taylor polynomians
+searching
+recursion
+recursion
+resce 24
+

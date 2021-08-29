@@ -1,0 +1,28 @@
+derivative
+searching
+queues
+derivative
+b-trees
+maps
+searching
+maps
+stacks
+series
+sorting
+sorting
+happiness hypothosis
+recursion
+derivative
+hash tables
+dot prodduct
+integral
+hash tables
+series
+gender
+gender
+taylor polynomians
+recursion
+b-trees
+taylor polynomians
+hanna 26
+

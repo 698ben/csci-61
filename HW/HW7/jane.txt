@@ -1,0 +1,35 @@
+queues
+derivative
+integral
+race
+maps
+trees
+vectors
+searching
+maps
+trees
+dot prodduct
+derivative
+hash tables
+cross prodduct
+stacks
+queues
+derivative
+taylor polynomians
+dot prodduct
+gender
+b-trees
+sorting
+derivative
+heaps
+maps
+hash tables
+maps
+trees
+race
+race
+queues
+vectors
+derivative
+jane 33
+

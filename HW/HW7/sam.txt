@@ -1,0 +1,36 @@
+b-trees
+dot prodduct
+recursion
+searching
+queues
+trees
+vectors
+dot prodduct
+heaps
+recursion
+dot prodduct
+hash tables
+series
+race
+queues
+race
+integral
+maps
+b-trees
+sorting
+race
+gender
+maps
+trees
+sorting
+gender
+derivative
+stacks
+trees
+cross prodduct
+heaps
+searching
+vectors
+series
+sam 34
+

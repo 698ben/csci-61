@@ -1,0 +1,32 @@
+maps
+dot prodduct
+integral
+stacks
+hash tables
+cross prodduct
+recursion
+heaps
+stacks
+queues
+vectors
+trees
+queues
+queues
+happiness hypothosis
+series
+happiness hypothosis
+series
+vectors
+trees
+taylor polynomians
+race
+series
+queues
+recursion
+sorting
+stacks
+vectors
+integral
+cross prodduct
+david 30
+

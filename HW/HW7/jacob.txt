@@ -1,0 +1,33 @@
+happiness hypothosis
+queues
+stacks
+happiness hypothosis
+sorting
+heaps
+vectors
+vectors
+b-trees
+searching
+dot prodduct
+series
+b-trees
+searching
+dot prodduct
+searching
+queues
+cross prodduct
+derivative
+recursion
+cross prodduct
+series
+derivative
+integral
+integral
+maps
+integral
+cross prodduct
+derivative
+queues
+heaps
+jacob 31
+

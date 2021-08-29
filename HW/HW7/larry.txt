@@ -1,0 +1,24 @@
+derivative
+vectors
+searching
+heaps
+maps
+vectors
+cross prodduct
+sorting
+trees
+queues
+hash tables
+series
+b-trees
+heaps
+vectors
+sorting
+dot prodduct
+trees
+hash tables
+searching
+trees
+series
+larry 22
+

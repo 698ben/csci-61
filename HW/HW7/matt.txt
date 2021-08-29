@@ -1,0 +1,31 @@
+heaps
+sorting
+happiness hypothosis
+vectors
+searching
+dot prodduct
+derivative
+queues
+gender
+integral
+searching
+derivative
+recursion
+trees
+dot prodduct
+cross prodduct
+series
+sorting
+trees
+derivative
+recursion
+maps
+trees
+sorting
+gender
+heaps
+recursion
+b-trees
+series
+matt 29
+

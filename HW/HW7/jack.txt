@@ -1,0 +1,34 @@
+maps
+sorting
+dot prodduct
+gender
+recursion
+gender
+queues
+race
+trees
+integral
+happiness hypothosis
+dot prodduct
+dot prodduct
+hash tables
+maps
+taylor polynomians
+searching
+race
+sorting
+trees
+race
+cross prodduct
+race
+maps
+cross prodduct
+series
+hash tables
+searching
+trees
+heaps
+searching
+integral
+jack 32
+

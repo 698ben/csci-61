@@ -1,0 +1,31 @@
+sorting
+maps
+heaps
+maps
+trees
+sorting
+vectors
+cross prodduct
+trees
+gender
+taylor polynomians
+recursion
+gender
+b-trees
+maps
+gender
+taylor polynomians
+maps
+queues
+derivative
+searching
+recursion
+dot prodduct
+trees
+taylor polynomians
+derivative
+sorting
+recursion
+trees
+susan 29
+

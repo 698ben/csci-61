@@ -1,0 +1,41 @@
+series
+heaps
+recursion
+integral
+vectors
+dot prodduct
+taylor polynomians
+heaps
+searching
+derivative
+b-trees
+cross prodduct
+trees
+searching
+race
+b-trees
+vectors
+gender
+queues
+happiness hypothosis
+dot prodduct
+recursion
+dot prodduct
+searching
+vectors
+maps
+dot prodduct
+taylor polynomians
+series
+stacks
+queues
+dot prodduct
+recursion
+maps
+race
+gender
+gender
+happiness hypothosis
+vectors
+kate 39
+

@@ -1,0 +1,42 @@
+integral
+queues
+series
+maps
+derivative
+dot prodduct
+queues
+sorting
+heaps
+recursion
+taylor polynomians
+queues
+integral
+series
+hash tables
+heaps
+heaps
+maps
+vectors
+recursion
+hash tables
+searching
+recursion
+integral
+vectors
+taylor polynomians
+vectors
+stacks
+sorting
+cross prodduct
+integral
+trees
+vectors
+dot prodduct
+trees
+maps
+recursion
+recursion
+gender
+queues
+sorting
+searching

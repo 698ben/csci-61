@@ -1,0 +1,23 @@
+maps
+stacks
+dot prodduct
+derivative
+integral
+dot prodduct
+maps
+stacks
+recursion
+trees
+series
+maps
+integral
+dot prodduct
+integral
+heaps
+dot prodduct
+dot prodduct
+hash tables
+vectors
+dot prodduct
+shane 21
+

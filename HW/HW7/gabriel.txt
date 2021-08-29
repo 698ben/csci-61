@@ -1,0 +1,28 @@
+heaps
+sorting
+integral
+derivative
+sorting
+gender
+b-trees
+taylor polynomians
+stacks
+series
+derivative
+sorting
+series
+searching
+happiness hypothosis
+race
+hash tables
+gender
+integral
+b-trees
+taylor polynomians
+race
+queues
+sorting
+taylor polynomians
+taylor polynomians
+gabriel 26
+

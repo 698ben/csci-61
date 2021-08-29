@@ -1,0 +1,27 @@
+sorting
+integral
+b-trees
+integral
+cross prodduct
+vectors
+derivative
+integral
+derivative
+heaps
+hash tables
+race
+taylor polynomians
+dot prodduct
+vectors
+searching
+cross prodduct
+hash tables
+queues
+series
+derivative
+b-trees
+searching
+cross prodduct
+trees
+steve 25
+

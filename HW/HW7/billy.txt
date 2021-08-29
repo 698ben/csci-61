@@ -1,0 +1,34 @@
+dot prodduct
+dot prodduct
+heaps
+sorting
+b-trees
+taylor polynomians
+cross prodduct
+trees
+searching
+queues
+gender
+integral
+integral
+queues
+sorting
+b-trees
+hash tables
+maps
+cross prodduct
+recursion
+maps
+cross prodduct
+hash tables
+dot prodduct
+series
+queues
+trees
+stacks
+dot prodduct
+vectors
+gender
+series
+billy 32
+
